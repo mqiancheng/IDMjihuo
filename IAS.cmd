@@ -297,7 +297,7 @@ cls
 title  IDM Activation Script %iasver%
 
 echo:
-echo ÕýÔÚ³õÊ¼»¯...
+echo æ­£åœ¨åˆå§‹åŒ–...
 
 ::  Check WMI
 
@@ -401,20 +401,20 @@ echo:
 echo:
 echo:
 echo:
-echo:                ´Ë½Å±¾²»ÊÊÓÃ×îÐÂµÄ IDM.     
+echo:                æ­¤è„šæœ¬ä¸é€‚ç”¨æœ€æ–°çš„ IDM.     
 echo:            ___________________________________________________ 
 echo:                                                               
-echo:               [1] ¶³½áÊÔÓÃÆÚ
-echo:               [2] ¼¤»î IDM
-echo:               [3] ÖØÖÃ IDM ¼¤»î / ×¢²áÊÔÓÃ
+echo:               [1] å†»ç»“è¯•ç”¨æœŸ
+echo:               [2] æ¿€æ´» IDM
+echo:               [3] é‡ç½® IDM æ¿€æ´» / æ³¨å†Œè¯•ç”¨
 echo:               _____________________________________________   
 echo:                                                               
-echo:               [4] ÏÂÔØ IDM
-echo:               [5] °ïÖú
-echo:               [0] ÍË³ö
+echo:               [4] ä¸‹è½½ IDM
+echo:               [5] å¸®åŠ©
+echo:               [0] é€€å‡º
 echo:            ___________________________________________________
 echo:         
-call :_color2 %_White% "             " %_Green% "ÔÚ¼üÅÌÖÐÊäÈë²Ëµ¥Ñ¡Ïî[1,2,3,4,5,0]"
+call :_color2 %_White% "             " %_Green% "åœ¨é”®ç›˜ä¸­è¾“å…¥èœå•é€‰é¡¹[1,2,3,4,5,0]"
 choice /C:123450 /N
 set _erl=%errorlevel%
 
