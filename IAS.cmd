@@ -297,7 +297,7 @@ cls
 title  IDM Activation Script %iasver%
 
 echo:
-echo Initializing...
+echo 正在初始化...
 
 ::  Check WMI
 
@@ -404,14 +404,14 @@ echo:
 echo:                This script is NOT working with latest IDM.     
 echo:            ___________________________________________________ 
 echo:                                                               
-echo:               [1] Freeze Trial
-echo:               [2] Activate
-echo:               [3] Reset Activation / Trial
+echo:               [1] 冻结试用期
+echo:               [2] 激活 IDM
+echo:               [3] 重置 IDM 激活 / 注册试用
 echo:               _____________________________________________   
 echo:                                                               
-echo:               [4] Download IDM
-echo:               [5] Help
-echo:               [0] Exit
+echo:               [4] 下载 IDM
+echo:               [5] 帮助
+echo:               [0] 退出
 echo:            ___________________________________________________
 echo:         
 call :_color2 %_White% "             " %_Green% "Enter a menu option in the Keyboard [1,2,3,4,5,0]"
