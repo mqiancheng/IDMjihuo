@@ -297,7 +297,7 @@ cls
 title  IDM Activation Script %iasver%
 
 echo:
-echo 正在初始化...
+echo Initializing...
 
 ::  Check WMI
 
@@ -401,20 +401,20 @@ echo:
 echo:
 echo:
 echo:
-echo:                此脚本不适用最新的 IDM.     
+echo:                This script is NOT working with latest IDM.     
 echo:            ___________________________________________________ 
 echo:                                                               
-echo:               [1] 冻结试用期
-echo:               [2] 激活 IDM
-echo:               [3] 重置 IDM 激活 / 注册试用
+echo:               [1] Freeze Trial
+echo:               [2] Activate
+echo:               [3] Reset Activation / Trial
 echo:               _____________________________________________   
 echo:                                                               
-echo:               [4] 下载 IDM
-echo:               [5] 帮助
-echo:               [0] 退出
+echo:               [4] Download IDM
+echo:               [5] Help
+echo:               [0] Exit
 echo:            ___________________________________________________
 echo:         
-call :_color2 %_White% "             " %_Green% "在键盘中输入菜单选项[1,2,3,4,5,0]"
+call :_color2 %_White% "             " %_Green% "Enter a menu option in the Keyboard [1,2,3,4,5,0]"
 choice /C:123450 /N
 set _erl=%errorlevel%
 
